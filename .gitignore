@@ -1,0 +1,14 @@
+# data
+data/
+data.zip
+*.csv
+*.xlsx
+
+# models
+models/
+
+# environment
+venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
