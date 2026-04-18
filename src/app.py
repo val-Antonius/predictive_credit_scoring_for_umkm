@@ -98,7 +98,7 @@ def hint(feat: str) -> str:
 # ══════════════════════════════════════════════════════════════
 
 st.set_page_config(
-    page_title="SkorKredit UMKM",
+    page_title="SHAP Credit Scoring App",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -432,7 +432,7 @@ def build_sidebar() -> dict:
 def main():
     st.markdown(f"""
     <div class="app-header">
-      <h1> Scoring Credit </h1>
+      <h1> SHAP Credit Scoring App </h1>
       <p>Sistem Penilaian Kelayakan Kredit
          &nbsp;·&nbsp; untuk Koperasi, BUMDes, dan Lembaga Keuangan Mikro Indonesia</p>
       <div class="kurs">Model: XGBoost + SHAP &nbsp;·&nbsp;
@@ -596,7 +596,7 @@ def main():
     st.markdown("---")
     st.markdown(
         f'<p style="font-size:10px;color:#B4B2A9;text-align:center;">'
-        f'SkorKredit UMKM &nbsp;·&nbsp; Portfolio Project &nbsp;·&nbsp; '
+        f'SHAP Credit Scoring App &nbsp;·&nbsp; Portfolio Project &nbsp;·&nbsp; '
         f'Dataset: Give Me Some Credit (Kaggle) &nbsp;·&nbsp; '
         f'Model: XGBoost + SHAP &nbsp;·&nbsp; Kurs: 1 USD = Rp {USD_TO_IDR:,}'
         f'</p>',
