@@ -1,0 +1,5 @@
+{
+  "best_threshold": 0.5354,
+  "selection_rule": "validation F1 maximum",
+  "source": "03_modeling_and_shap.py"
+}

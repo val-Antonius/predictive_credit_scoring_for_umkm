@@ -1,0 +1,7 @@
+Model,Split,AUC-ROC,F1 (weighted),F1 (minority),AP Score
+Logistic Regression,val,0.8501,0.8369,0.317,0.3361
+Logistic Regression,test,0.8475,0.8364,0.3184,0.3145
+XGBoost (tuned),val,0.8706,0.9231,0.4523,0.425
+XGBoost (tuned),test,0.8641,0.9214,0.4421,0.3862
+LightGBM,val,0.8524,0.8809,0.3789,0.3992
+LightGBM,test,0.8503,0.8796,0.3735,0.3691

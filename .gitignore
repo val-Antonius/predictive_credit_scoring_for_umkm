@@ -1,14 +1,35 @@
 # data
-data/
+data/*
+!data/processed/
+!data/processed/**
 data.zip
-*.csv
 *.xlsx
 
+# global tabular artifacts (keep off by default)
+*.csv
+
+# allowlist for README-referenced artifacts
+!data/processed/*.csv
+!outputs/modeling/model_comparison.csv
+
 # models
-models/
+models/*
+!models/best_xgb_model.json
+!models/scaler.pkl
+!models/best_threshold.json
 
 # environment
 venv/
 .env
 __pycache__/
 .ipynb_checkpoints/
+
+ai_mentor/
+
+outputs/*
+!outputs/modeling/
+!outputs/modeling/**
+
+reports/
+
+notebooks/
